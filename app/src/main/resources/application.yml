@@ -27,7 +27,10 @@ springdoc:
 
 spring:
   config:
-    import: optional:classpath:voice-interview-opening.yml
+    import:
+      - optional:classpath:voice-interview-opening.yml
+      - optional:file:.env[.properties]
+      - optional:file:../.env[.properties]
   application:
     name: ai-interview-platform
 
