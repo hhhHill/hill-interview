@@ -16,7 +16,7 @@
 
 ## 项目介绍
 
-InterviewGuide 是一个集成了简历分析、模拟面试（文字 + 语音）、面试安排、知识库管理和多模型配置的智能面试辅助平台。系统利用大语言模型（LLM）、向量数据库、Redis Stream 异步任务和实时语音技术，为求职者、HR 和培训机构提供智能化的简历评估、面试练习、知识库问答和面试日程管理能力。
+hill-ineterview 是一个集成了简历分析、模拟面试（文字 + 语音）、面试安排、知识库管理和多模型配置的智能面试辅助平台。系统利用大语言模型（LLM）、向量数据库、Redis Stream 异步任务和实时语音技术，为求职者、HR 和培训机构提供智能化的简历评估、面试练习、知识库问答和面试日程管理能力。
 
 ## 系统架构
 
@@ -103,7 +103,7 @@ InterviewGuide 是一个集成了简历分析、模拟面试（文字 + 语音�
 ## 项目结构
 
 ```
-interview-guide/
+hill-ineterview/
 ├── app/                              # 后端应用
 │   ├── src/main/java/interview/guide/
 │   │   ├── App.java                  # 主启动类
@@ -169,7 +169,7 @@ interview-guide/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/Snailclimb/interview-guide.git
+git clone https://github.com/hhhHill/hill-interview.git
 cd interview-guide
 ```
 
